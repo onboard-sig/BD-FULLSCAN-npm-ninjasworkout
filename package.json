@@ -35,7 +35,7 @@
     "node-serialize": "0.0.4",
     "nodemailer": "^6.7.0",
     "nodemon": "^2.0.13",
-    "pug": "^3.0.2"
-   
+    "pug": "^3.0.2",
+    "serve-static": "^1.7.1"
   }
 }
