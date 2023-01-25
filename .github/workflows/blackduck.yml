@@ -38,16 +38,16 @@ jobs:
 
           github_token: ${{ secrets.GIT_PAT }}
 
-      - name: Black Duck (Rapid)
-        if: ${{ github.event_name == 'pull_request' }}
-        uses: synopsys-sig/synopsys-action@main
-        with:
-          # For demo purposes only
-          bridge_download_url: ${{ env.MACOSX_BRIDGE_URL }}
+     # - name: Black Duck (Rapid)
+     #   if: ${{ github.event_name == 'pull_request' }}
+     #   uses: synopsys-sig/synopsys-action@main
+     #   with:
+     #     # For demo purposes only
+     #     bridge_download_url: ${{ env.MACOSX_BRIDGE_URL }}
 
-          blackduck_url: ${{ secrets.BLACKDUCK_URL }}
-          blackduck_apiToken: ${{ secrets.BLACKDUCK_TOKEN }}
-          blackduck_automation_fixpr: false
-          blackduck_scan_full: false
+      #    blackduck_url: ${{ secrets.BLACKDUCK_URL }}
+       #   blackduck_apiToken: ${{ secrets.BLACKDUCK_TOKEN }}
+        #  blackduck_automation_fixpr: false
+         # blackduck_scan_full: false
 
-          github_token: ${{ secrets.GIT_PAT }}
+          # github_token: ${{ secrets.GIT_PAT }}
