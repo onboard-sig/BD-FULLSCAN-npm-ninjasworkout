@@ -17,12 +17,13 @@ jobs:
   blackduck:
     # The type of runner that the job will run on
     runs-on: [self-hosted]
-
+    env: 
+        blackduck_trust_cert : true
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
-
+    
       - name: Black Duck (Full/Intelligent)
         if: ${{ github.event_name == 'push' }}
         uses: synopsys-sig/synopsys-action@main
