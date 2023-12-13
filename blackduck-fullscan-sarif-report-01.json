@@ -1,0 +1,1387 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "Black Duck (Rapid)",
+          "version": "9.1.0",
+          "organization": "Synopsys",
+          "rules": [
+            {
+              "id": "follow-redirects 1.14.4: axios 0.22.0",
+              "shortDescription": {
+                "text": "Transitive Dependency: follow-redirects 1.14.4 from axios 0.22.0"
+              },
+              "fullDescription": {
+                "text": "- [:orange_circle:] [BDSA-2022-0139](https://openhub.net/vulnerabilities/bdsa/BDSA-2022-0139) (CVE-2022-0155)\n"
+              },
+              "help": {
+                "markdown": "\n## Upgrade Guidance\n\n\n### Upgrade Guidance for Direct dependency\n\n| **Affected Direct Dependency**  | **Recommended short term version** | **Recommended long term version** |\n| :--- |:--- | :--- |\n| axios 0.22.0  | 0.27.2  | 1.6.2 |\n\n### Upgrade Guidance for Transitive dependency\n\n| **Affected Transitive Dependency**  | **Recommended short term version** | **Recommended long term version** |\n| :--- | :--- | :--- |\n| follow-redirects 1.14.4  | 1.15.3  | 1.15.3 |\n\n\n\n[Click Here To See More Details in Black Duck](https://testing.blackduck.synopsys.com/api/projects/f92df77e-7886-4c35-9792-516829ecf7e9/versions/875c7b55-9ee3-4c63-bb15-8570e601112b/vulnerability-bom?selectedComponent=ed57c19b-bbef-42d3-a2ec-5bf5edf24b4f)\n\n## Vulnerabilities(BDSA,CVE)\n\n \n| **Severity**  | **Vulnerability** | **Summary** | **Solution Available?** | **Workaround Available?** |\n| :--- |:--- | :--- | :--- | :--- |\n| :orange_circle: | [BDSA-2022-0139](https://openhub.net/vulnerabilities/bdsa/BDSA-2022-0139) ([CVE-2022-0155](https://nvd.nist.gov/vuln/detail/CVE-2022-0155)) | follow-redirects Vulnerable to Information Disclosure via Cookie Headers | Yes | - |\n\n\n## Dependency tree\n- zq-vulnerable-app-01/1.0.0/-npm\n    - axios/0.22.0\n        - follow-redirects/1.14.4\n\n\n## References\n* Common Weakness Enumeration: [CWE-359](https://cwe.mitre.org/data/definitions/359.html)\n\n",
+                "text": "- [:orange_circle:] [BDSA-2022-0139](https://openhub.net/vulnerabilities/bdsa/BDSA-2022-0139) (CVE-2022-0155)\n"
+              },
+              "properties": {
+                "security-severity": "8.9",
+                "tags": [
+                  "security",
+                  "open_source_analysis",
+                  "transitive_dependency",
+                  "patch_available",
+                  "external/cwe/cwe-359"
+                ]
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              }
+            },
+            {
+              "id": "semver 6.3.0: nodemon 2.0.13",
+              "shortDescription": {
+                "text": "Transitive Dependency: semver 6.3.0 from nodemon 2.0.13"
+              },
+              "fullDescription": {
+                "text": "- [:yellow_circle:] [BDSA-2023-2207](https://openhub.net/vulnerabilities/bdsa/BDSA-2023-2207) (CVE-2022-25883)\n"
+              },
+              "help": {
+                "markdown": "\n## Upgrade Guidance\n\n\n### Upgrade Guidance for Direct dependency\n\n| **Affected Direct Dependency**  | **Recommended short term version** | **Recommended long term version** |\n| :--- |:--- | :--- |\n| nodemon 2.0.13  | 2.0.18  | 3.0.2 |\n\n### Upgrade Guidance for Transitive dependency\n\n| **Affected Transitive Dependency**  | **Recommended short term version** | **Recommended long term version** |\n| :--- | :--- | :--- |\n| semver 6.3.0  | 6.3.1  | 7.5.4 |\n\n\n\n[Click Here To See More Details in Black Duck](https://testing.blackduck.synopsys.com/api/projects/f92df77e-7886-4c35-9792-516829ecf7e9/versions/875c7b55-9ee3-4c63-bb15-8570e601112b/vulnerability-bom?selectedComponent=0df99efe-48e7-46fc-80be-a4b0b2e5160e)\n\n## Vulnerabilities(BDSA,CVE)\n\n \n| **Severity**  | **Vulnerability** | **Summary** | **Solution Available?** | **Workaround Available?** |\n| :--- |:--- | :--- | :--- | :--- |\n| :yellow_circle: | [BDSA-2023-2207](https://openhub.net/vulnerabilities/bdsa/BDSA-2023-2207) ([CVE-2022-25883](https://nvd.nist.gov/vuln/detail/CVE-2022-25883)) | Node Semver Vulnerable to Regular Expression Denial-of-Service (ReDoS) via Improper Handling of Whitespace in 'range.js' File | Yes | - |\n\n\n## Dependency tree\n- zq-vulnerable-app-01/1.0.0/-npm\n    - nodemon/2.0.13\n        - update-notifier/5.1.0\n            - semver-diff/3.1.1\n                - semver/6.3.0\n\n\n## References\n* Common Weakness Enumeration: [CWE-185](https://cwe.mitre.org/data/definitions/185.html)\n\n",
+                "text": "- [:yellow_circle:] [BDSA-2023-2207](https://openhub.net/vulnerabilities/bdsa/BDSA-2023-2207) (CVE-2022-25883)\n"
+              },
+              "properties": {
+                "security-severity": "6.8",
+                "tags": [
+                  "security",
+                  "open_source_analysis",
+                  "transitive_dependency",
+                  "patch_available",
+                  "external/cwe/cwe-185"
+                ]
+              },
+              "defaultConfiguration": {
+                "level": "warning"
+              }
+            },
+            {
+              "id": "jws 0.2.6: jsonwebtoken 0.4.0",
+              "shortDescription": {
+                "text": "Transitive Dependency: jws 0.2.6 from jsonwebtoken 0.4.0"
+              },
+              "fullDescription": {
+                "text": "- [:orange_circle:] [BDSA-2016-1221](https://openhub.net/vulnerabilities/bdsa/BDSA-2016-1221)\n- [:yellow_circle:] [BDSA-2015-0680](https://openhub.net/vulnerabilities/bdsa/BDSA-2015-0680)\n"
+              },
+              "help": {
+                "markdown": "\n## Upgrade Guidance\n\n\n### Upgrade Guidance for Direct dependency\n\n| **Affected Direct Dependency**  | **Recommended short term version** | **Recommended long term version** |\n| :--- |:--- | :--- |\n| jsonwebtoken 0.4.0  | 0.4.1  | 9.0.2 |\n\n### Upgrade Guidance for Transitive dependency\n\n| **Affected Transitive Dependency**  | **Recommended short term version** | **Recommended long term version** |\n| :--- | :--- | :--- |\n| jws 0.2.6  | Not available  | 4.0.0 |\n\n\n\n[Click Here To See More Details in Black Duck](https://testing.blackduck.synopsys.com/api/projects/f92df77e-7886-4c35-9792-516829ecf7e9/versions/875c7b55-9ee3-4c63-bb15-8570e601112b/vulnerability-bom?selectedComponent=7b8622e3-a32e-46ba-be16-ee1020769686)\n\n## Vulnerabilities(BDSA,CVE)\n\n \n| **Severity**  | **Vulnerability** | **Summary** | **Solution Available?** | **Workaround Available?** |\n| :--- |:--- | :--- | :--- | :--- |\n| :orange_circle: | [BDSA-2016-1221](https://openhub.net/vulnerabilities/bdsa/BDSA-2016-1221) | Node JWS 'jws.verify' Vulnerable to Public/Private JSON Web Token Forgery via 'alg' Field | Yes | - |\n| :yellow_circle: | [BDSA-2015-0680](https://openhub.net/vulnerabilities/bdsa/BDSA-2015-0680) | Node JWS Vulnerable to Validation Bypass via Improper Token Validation in 'alg' Field | Yes | - |\n\n\n## Dependency tree\n- zq-vulnerable-app-01/1.0.0/-npm\n    - jsonwebtoken/0.4.0\n        - jws/0.2.6\n\n\n## References\n* Common Weakness Enumeration: [CWE-310](https://cwe.mitre.org/data/definitions/310.html)\n* Common Weakness Enumeration: [CWE-347](https://cwe.mitre.org/data/definitions/347.html)\n* Common Weakness Enumeration: [CWE-320](https://cwe.mitre.org/data/definitions/320.html)\n\n",
+                "text": "- [:orange_circle:] [BDSA-2016-1221](https://openhub.net/vulnerabilities/bdsa/BDSA-2016-1221)\n- [:yellow_circle:] [BDSA-2015-0680](https://openhub.net/vulnerabilities/bdsa/BDSA-2015-0680)\n"
+              },
+              "properties": {
+                "security-severity": "8.9",
+                "tags": [
+                  "security",
+                  "open_source_analysis",
+                  "transitive_dependency",
+                  "patch_available",
+                  "external/cwe/cwe-310",
+                  "external/cwe/cwe-347",
+                  "external/cwe/cwe-320"
+                ]
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              }
+            },
+            {
+              "id": "node-serialize 0.0.4",
+              "shortDescription": {
+                "text": "Direct Dependency: node-serialize 0.0.4"
+              },
+              "fullDescription": {
+                "text": "- [:red_circle:] [BDSA-2017-4050](https://openhub.net/vulnerabilities/bdsa/BDSA-2017-4050) (CVE-2017-5941)\n"
+              },
+              "help": {
+                "markdown": "\n## Upgrade Guidance\n\n\n\n| **Affected Dependency**  | **Recommended short term version** | **Recommended long term version** |\n| :--- | :--- | :--- |\n| node-serialize 0.0.4  | Not available  | Not available |\n\n\n\n[Click Here To See More Details in Black Duck](https://testing.blackduck.synopsys.com/api/projects/f92df77e-7886-4c35-9792-516829ecf7e9/versions/875c7b55-9ee3-4c63-bb15-8570e601112b/vulnerability-bom?selectedComponent=09273ac2-5ad1-4203-8aa7-5a800d22d885)\n\n## Vulnerabilities(BDSA,CVE)\n\n \n| **Severity**  | **Vulnerability** | **Summary** | **Solution Available?** | **Workaround Available?** |\n| :--- |:--- | :--- | :--- | :--- |\n| :red_circle: | [BDSA-2017-4050](https://openhub.net/vulnerabilities/bdsa/BDSA-2017-4050) ([CVE-2017-5941](https://nvd.nist.gov/vuln/detail/CVE-2017-5941)) | node-serialize Vulnerable to Remote Code Execution (RCE) via Deserialized Immediately Invoked Function Expressions (IIFE) | - | Yes |\n\n\n\n\n## References\n* Common Weakness Enumeration: [CWE-502](https://cwe.mitre.org/data/definitions/502.html)\n\n",
+                "text": "- [:red_circle:] [BDSA-2017-4050](https://openhub.net/vulnerabilities/bdsa/BDSA-2017-4050) (CVE-2017-5941)\n"
+              },
+              "properties": {
+                "security-severity": "9.1",
+                "tags": [
+                  "security",
+                  "open_source_analysis",
+                  "direct_dependency",
+                  "external/cwe/cwe-502"
+                ]
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              }
+            },
+            {
+              "id": "mongoose 6.0.11: mongodb-autoincrement 1.0.1",
+              "shortDescription": {
+                "text": "Transitive Dependency: mongoose 6.0.11 from mongodb-autoincrement 1.0.1"
+              },
+              "fullDescription": {
+                "text": "- [:red_circle:] [BDSA-2023-1810](https://openhub.net/vulnerabilities/bdsa/BDSA-2023-1810) (CVE-2023-3696)\n- [:yellow_circle:] [BDSA-2022-2650](https://openhub.net/vulnerabilities/bdsa/BDSA-2022-2650) (CVE-2022-2564)\n"
+              },
+              "help": {
+                "markdown": "\n## Upgrade Guidance\n\n\n### Upgrade Guidance for Direct dependency\n\n| **Affected Direct Dependency**  | **Recommended short term version** | **Recommended long term version** |\n| :--- |:--- | :--- |\n| mongodb-autoincrement 1.0.1  | Not available  | Not available |\n\n### Upgrade Guidance for Transitive dependency\n\n| **Affected Transitive Dependency**  | **Recommended short term version** | **Recommended long term version** |\n| :--- | :--- | :--- |\n| mongoose 6.0.11  | 6.12.3  | 8.0.2 |\n\n\n\n[Click Here To See More Details in Black Duck](https://testing.blackduck.synopsys.com/api/projects/f92df77e-7886-4c35-9792-516829ecf7e9/versions/875c7b55-9ee3-4c63-bb15-8570e601112b/vulnerability-bom?selectedComponent=5996b1ec-f359-4c72-af46-3e52eee4261f)\n\n## Vulnerabilities(BDSA,CVE)\n\n \n| **Severity**  | **Vulnerability** | **Summary** | **Solution Available?** | **Workaround Available?** |\n| :--- |:--- | :--- | :--- | :--- |\n| :red_circle: | [BDSA-2023-1810](https://openhub.net/vulnerabilities/bdsa/BDSA-2023-1810) ([CVE-2023-3696](https://nvd.nist.gov/vuln/detail/CVE-2023-3696)) | Mongoose Vulnerable to Prototype Pollution via 'init' Function | Yes | - |\n| :yellow_circle: | [BDSA-2022-2650](https://openhub.net/vulnerabilities/bdsa/BDSA-2022-2650) ([CVE-2022-2564](https://nvd.nist.gov/vuln/detail/CVE-2022-2564)) | Mongoose Vulnerable to Prototype Pollution via 'Schema.path' Function | Yes | - |\n\n\n## Dependency tree\n- zq-vulnerable-app-01/1.0.0/-npm\n    - mongodb-autoincrement/1.0.1\n        - mongoose/6.0.11\n\n\n## References\n* Common Weakness Enumeration: [CWE-471](https://cwe.mitre.org/data/definitions/471.html)\n* Common Weakness Enumeration: [CWE-471](https://cwe.mitre.org/data/definitions/471.html)\n\n",
+                "text": "- [:red_circle:] [BDSA-2023-1810](https://openhub.net/vulnerabilities/bdsa/BDSA-2023-1810) (CVE-2023-3696)\n- [:yellow_circle:] [BDSA-2022-2650](https://openhub.net/vulnerabilities/bdsa/BDSA-2022-2650) (CVE-2022-2564)\n"
+              },
+              "properties": {
+                "security-severity": "9.1",
+                "tags": [
+                  "security",
+                  "open_source_analysis",
+                  "transitive_dependency",
+                  "external/cwe/cwe-471"
+                ]
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              }
+            },
+            {
+              "id": "mongoose 6.0.11",
+              "shortDescription": {
+                "text": "Direct Dependency: mongoose 6.0.11"
+              },
+              "fullDescription": {
+                "text": "- [:red_circle:] [BDSA-2023-1810](https://openhub.net/vulnerabilities/bdsa/BDSA-2023-1810) (CVE-2023-3696)\n- [:yellow_circle:] [BDSA-2022-2650](https://openhub.net/vulnerabilities/bdsa/BDSA-2022-2650) (CVE-2022-2564)\n"
+              },
+              "help": {
+                "markdown": "\n## Upgrade Guidance\n\n\n\n| **Affected Dependency**  | **Recommended short term version** | **Recommended long term version** |\n| :--- | :--- | :--- |\n| mongoose 6.0.11  | 6.12.3  | 8.0.2 |\n\n\n\n[Click Here To See More Details in Black Duck](https://testing.blackduck.synopsys.com/api/projects/f92df77e-7886-4c35-9792-516829ecf7e9/versions/875c7b55-9ee3-4c63-bb15-8570e601112b/vulnerability-bom?selectedComponent=5996b1ec-f359-4c72-af46-3e52eee4261f)\n\n## Vulnerabilities(BDSA,CVE)\n\n \n| **Severity**  | **Vulnerability** | **Summary** | **Solution Available?** | **Workaround Available?** |\n| :--- |:--- | :--- | :--- | :--- |\n| :red_circle: | [BDSA-2023-1810](https://openhub.net/vulnerabilities/bdsa/BDSA-2023-1810) ([CVE-2023-3696](https://nvd.nist.gov/vuln/detail/CVE-2023-3696)) | Mongoose Vulnerable to Prototype Pollution via 'init' Function | Yes | - |\n| :yellow_circle: | [BDSA-2022-2650](https://openhub.net/vulnerabilities/bdsa/BDSA-2022-2650) ([CVE-2022-2564](https://nvd.nist.gov/vuln/detail/CVE-2022-2564)) | Mongoose Vulnerable to Prototype Pollution via 'Schema.path' Function | Yes | - |\n\n\n\n\n## References\n* Common Weakness Enumeration: [CWE-471](https://cwe.mitre.org/data/definitions/471.html)\n* Common Weakness Enumeration: [CWE-471](https://cwe.mitre.org/data/definitions/471.html)\n\n",
+                "text": "- [:red_circle:] [BDSA-2023-1810](https://openhub.net/vulnerabilities/bdsa/BDSA-2023-1810) (CVE-2023-3696)\n- [:yellow_circle:] [BDSA-2022-2650](https://openhub.net/vulnerabilities/bdsa/BDSA-2022-2650) (CVE-2022-2564)\n"
+              },
+              "properties": {
+                "security-severity": "9.1",
+                "tags": [
+                  "security",
+                  "open_source_analysis",
+                  "direct_dependency",
+                  "patch_available",
+                  "external/cwe/cwe-471"
+                ]
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              }
+            },
+            {
+              "id": "mongoose 6.0.11: mongoose-unique-validator 2.0.4",
+              "shortDescription": {
+                "text": "Transitive Dependency: mongoose 6.0.11 from mongoose-unique-validator 2.0.4"
+              },
+              "fullDescription": {
+                "text": "- [:red_circle:] [BDSA-2023-1810](https://openhub.net/vulnerabilities/bdsa/BDSA-2023-1810) (CVE-2023-3696)\n- [:yellow_circle:] [BDSA-2022-2650](https://openhub.net/vulnerabilities/bdsa/BDSA-2022-2650) (CVE-2022-2564)\n"
+              },
+              "help": {
+                "markdown": "\n## Upgrade Guidance\n\n\n### Upgrade Guidance for Direct dependency\n\n| **Affected Direct Dependency**  | **Recommended short term version** | **Recommended long term version** |\n| :--- |:--- | :--- |\n| mongoose-unique-validator 2.0.4  | Not available  | 4.0.0 |\n\n### Upgrade Guidance for Transitive dependency\n\n| **Affected Transitive Dependency**  | **Recommended short term version** | **Recommended long term version** |\n| :--- | :--- | :--- |\n| mongoose 6.0.11  | 6.12.3  | 8.0.2 |\n\n\n\n[Click Here To See More Details in Black Duck](https://testing.blackduck.synopsys.com/api/projects/f92df77e-7886-4c35-9792-516829ecf7e9/versions/875c7b55-9ee3-4c63-bb15-8570e601112b/vulnerability-bom?selectedComponent=5996b1ec-f359-4c72-af46-3e52eee4261f)\n\n## Vulnerabilities(BDSA,CVE)\n\n \n| **Severity**  | **Vulnerability** | **Summary** | **Solution Available?** | **Workaround Available?** |\n| :--- |:--- | :--- | :--- | :--- |\n| :red_circle: | [BDSA-2023-1810](https://openhub.net/vulnerabilities/bdsa/BDSA-2023-1810) ([CVE-2023-3696](https://nvd.nist.gov/vuln/detail/CVE-2023-3696)) | Mongoose Vulnerable to Prototype Pollution via 'init' Function | Yes | - |\n| :yellow_circle: | [BDSA-2022-2650](https://openhub.net/vulnerabilities/bdsa/BDSA-2022-2650) ([CVE-2022-2564](https://nvd.nist.gov/vuln/detail/CVE-2022-2564)) | Mongoose Vulnerable to Prototype Pollution via 'Schema.path' Function | Yes | - |\n\n\n## Dependency tree\n- zq-vulnerable-app-01/1.0.0/-npm\n    - mongoose-unique-validator/2.0.4\n        - mongoose/6.0.11\n\n\n## References\n* Common Weakness Enumeration: [CWE-471](https://cwe.mitre.org/data/definitions/471.html)\n* Common Weakness Enumeration: [CWE-471](https://cwe.mitre.org/data/definitions/471.html)\n\n",
+                "text": "- [:red_circle:] [BDSA-2023-1810](https://openhub.net/vulnerabilities/bdsa/BDSA-2023-1810) (CVE-2023-3696)\n- [:yellow_circle:] [BDSA-2022-2650](https://openhub.net/vulnerabilities/bdsa/BDSA-2022-2650) (CVE-2022-2564)\n"
+              },
+              "properties": {
+                "security-severity": "9.1",
+                "tags": [
+                  "security",
+                  "open_source_analysis",
+                  "transitive_dependency",
+                  "patch_available",
+                  "external/cwe/cwe-471"
+                ]
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              }
+            },
+            {
+              "id": "mout 0.12.0: express-error-handler 1.1.0",
+              "shortDescription": {
+                "text": "Transitive Dependency: mout 0.12.0 from express-error-handler 1.1.0"
+              },
+              "fullDescription": {
+                "text": "- [:yellow_circle:] [BDSA-2020-4737](https://openhub.net/vulnerabilities/bdsa/BDSA-2020-4737) (CVE-2020-7792)\n- [:yellow_circle:] [BDSA-2022-1710](https://openhub.net/vulnerabilities/bdsa/BDSA-2022-1710) (CVE-2022-21213)\n"
+              },
+              "help": {
+                "markdown": "\n## Upgrade Guidance\n\n\n### Upgrade Guidance for Direct dependency\n\n| **Affected Direct Dependency**  | **Recommended short term version** | **Recommended long term version** |\n| :--- |:--- | :--- |\n| express-error-handler 1.1.0  | Not available  | Not available |\n\n### Upgrade Guidance for Transitive dependency\n\n| **Affected Transitive Dependency**  | **Recommended short term version** | **Recommended long term version** |\n| :--- | :--- | :--- |\n| mout 0.12.0  | Not available  | 1.2.4 |\n\n\n\n[Click Here To See More Details in Black Duck](https://testing.blackduck.synopsys.com/api/projects/f92df77e-7886-4c35-9792-516829ecf7e9/versions/875c7b55-9ee3-4c63-bb15-8570e601112b/vulnerability-bom?selectedComponent=c02b6a11-d472-4507-a201-b5f02fad7469)\n\n## Vulnerabilities(BDSA,CVE)\n\n \n| **Severity**  | **Vulnerability** | **Summary** | **Solution Available?** | **Workaround Available?** |\n| :--- |:--- | :--- | :--- | :--- |\n| :yellow_circle: | [BDSA-2020-4737](https://openhub.net/vulnerabilities/bdsa/BDSA-2020-4737) ([CVE-2020-7792](https://nvd.nist.gov/vuln/detail/CVE-2020-7792)) | mout Vulnerable to Prototype Pollution via 'deepFillIn' and 'deepMixIn' Functions | - | - |\n| :yellow_circle: | [BDSA-2022-1710](https://openhub.net/vulnerabilities/bdsa/BDSA-2022-1710) ([CVE-2022-21213](https://nvd.nist.gov/vuln/detail/CVE-2022-21213)) | mout Vulnerable to Prototype Pollution via 'deepFillIn' and 'deepMixIn' Functions | Yes | - |\n\n\n## Dependency tree\n- zq-vulnerable-app-01/1.0.0/-npm\n    - express-error-handler/1.1.0\n        - mout/0.12.0\n\n\n## References\n* Common Weakness Enumeration: [CWE-471](https://cwe.mitre.org/data/definitions/471.html)\n* Common Weakness Enumeration: [CWE-471](https://cwe.mitre.org/data/definitions/471.html)\n\n",
+                "text": "- [:yellow_circle:] [BDSA-2020-4737](https://openhub.net/vulnerabilities/bdsa/BDSA-2020-4737) (CVE-2020-7792)\n- [:yellow_circle:] [BDSA-2022-1710](https://openhub.net/vulnerabilities/bdsa/BDSA-2022-1710) (CVE-2022-21213)\n"
+              },
+              "properties": {
+                "security-severity": "6.8",
+                "tags": [
+                  "security",
+                  "open_source_analysis",
+                  "transitive_dependency",
+                  "external/cwe/cwe-471"
+                ]
+              },
+              "defaultConfiguration": {
+                "level": "warning"
+              }
+            },
+            {
+              "id": "minimist 1.2.5: multer 1.4.3",
+              "shortDescription": {
+                "text": "Transitive Dependency: minimist 1.2.5 from multer 1.4.3"
+              },
+              "fullDescription": {
+                "text": "- [:orange_circle:] [BDSA-2020-4373](https://openhub.net/vulnerabilities/bdsa/BDSA-2020-4373)\n- [:orange_circle:] [BDSA-2022-0771](https://openhub.net/vulnerabilities/bdsa/BDSA-2022-0771) (CVE-2021-44906)\n"
+              },
+              "help": {
+                "markdown": "\n## Upgrade Guidance\n\n\n### Upgrade Guidance for Direct dependency\n\n| **Affected Direct Dependency**  | **Recommended short term version** | **Recommended long term version** |\n| :--- |:--- | :--- |\n| multer 1.4.3  | 1.4.5-lts.1  | 1.4.5-lts.1 |\n\n### Upgrade Guidance for Transitive dependency\n\n| **Affected Transitive Dependency**  | **Recommended short term version** | **Recommended long term version** |\n| :--- | :--- | :--- |\n| minimist 1.2.5  | 1.2.8  | 1.2.8 |\n\n\n\n[Click Here To See More Details in Black Duck](https://testing.blackduck.synopsys.com/api/projects/f92df77e-7886-4c35-9792-516829ecf7e9/versions/875c7b55-9ee3-4c63-bb15-8570e601112b/vulnerability-bom?selectedComponent=465993e6-6339-47db-9129-15679c6206f5)\n\n## Vulnerabilities(BDSA,CVE)\n\n \n| **Severity**  | **Vulnerability** | **Summary** | **Solution Available?** | **Workaround Available?** |\n| :--- |:--- | :--- | :--- | :--- |\n| :orange_circle: | [BDSA-2020-4373](https://openhub.net/vulnerabilities/bdsa/BDSA-2020-4373) | minimist Vulnerable to Remote Code Execution (RCE) via Prototype Pollution | Yes | - |\n| :orange_circle: | [BDSA-2022-0771](https://openhub.net/vulnerabilities/bdsa/BDSA-2022-0771) ([CVE-2021-44906](https://nvd.nist.gov/vuln/detail/CVE-2021-44906)) | Minimist Vulnerable to Prototype Pollution via 'setKey()' Function | Yes | - |\n\n\n## Dependency tree\n- zq-vulnerable-app-01/1.0.0/-npm\n    - multer/1.4.3\n        - mkdirp/0.5.5\n            - minimist/1.2.5\n\n\n## References\n* Common Weakness Enumeration: [CWE-20](https://cwe.mitre.org/data/definitions/20.html)\n* Common Weakness Enumeration: [CWE-471](https://cwe.mitre.org/data/definitions/471.html)\n\n",
+                "text": "- [:orange_circle:] [BDSA-2020-4373](https://openhub.net/vulnerabilities/bdsa/BDSA-2020-4373)\n- [:orange_circle:] [BDSA-2022-0771](https://openhub.net/vulnerabilities/bdsa/BDSA-2022-0771) (CVE-2021-44906)\n"
+              },
+              "properties": {
+                "security-severity": "8.9",
+                "tags": [
+                  "security",
+                  "open_source_analysis",
+                  "transitive_dependency",
+                  "patch_available",
+                  "external/cwe/cwe-20",
+                  "external/cwe/cwe-471"
+                ]
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              }
+            },
+            {
+              "id": "mongodb 4.1.2: mongodb-autoincrement 1.0.1",
+              "shortDescription": {
+                "text": "Transitive Dependency: mongodb 4.1.2 from mongodb-autoincrement 1.0.1"
+              },
+              "fullDescription": {
+                "text": "- [:orange_circle:] [CVE-2021-32050](https://nvd.nist.gov/vuln/detail/CVE-2021-32050)\n"
+              },
+              "help": {
+                "markdown": "\n## Upgrade Guidance\n\n\n### Upgrade Guidance for Direct dependency\n\n| **Affected Direct Dependency**  | **Recommended short term version** | **Recommended long term version** |\n| :--- |:--- | :--- |\n| mongodb-autoincrement 1.0.1  | Not available  | Not available |\n\n### Upgrade Guidance for Transitive dependency\n\n| **Affected Transitive Dependency**  | **Recommended short term version** | **Recommended long term version** |\n| :--- | :--- | :--- |\n| mongodb 4.1.2  | 4.17.1  | 6.3.0 |\n\n\n\n[Click Here To See More Details in Black Duck](https://testing.blackduck.synopsys.com/api/projects/f92df77e-7886-4c35-9792-516829ecf7e9/versions/875c7b55-9ee3-4c63-bb15-8570e601112b/vulnerability-bom?selectedComponent=f42494a5-c6c1-484c-a065-120c6c6842db)\n\n## Vulnerabilities(BDSA,CVE)\n\n \n| **Severity**  | **Vulnerability** | **Summary** | **Solution Available?** | **Workaround Available?** |\n| :--- |:--- | :--- | :--- | :--- |\n| :orange_circle: | [CVE-2021-32050](https://nvd.nist.gov/vuln/detail/CVE-2021-32050) | Not Available | - | - |\n\n\n## Dependency tree\n- zq-vulnerable-app-01/1.0.0/-npm\n    - mongodb-autoincrement/1.0.1\n        - mongoose/6.0.11\n            - mongodb/4.1.2\n\n\n## References\n* Common Weakness Enumeration: [CWE-532](https://cwe.mitre.org/data/definitions/532.html)\n\n",
+                "text": "- [:orange_circle:] [CVE-2021-32050](https://nvd.nist.gov/vuln/detail/CVE-2021-32050)\n"
+              },
+              "properties": {
+                "security-severity": "8.9",
+                "tags": [
+                  "security",
+                  "open_source_analysis",
+                  "transitive_dependency",
+                  "external/cwe/cwe-532"
+                ]
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              }
+            },
+            {
+              "id": "mongodb 4.1.2: mongoose 6.0.11",
+              "shortDescription": {
+                "text": "Transitive Dependency: mongodb 4.1.2 from mongoose 6.0.11"
+              },
+              "fullDescription": {
+                "text": "- [:orange_circle:] [CVE-2021-32050](https://nvd.nist.gov/vuln/detail/CVE-2021-32050)\n"
+              },
+              "help": {
+                "markdown": "\n## Upgrade Guidance\n\n\n### Upgrade Guidance for Direct dependency\n\n| **Affected Direct Dependency**  | **Recommended short term version** | **Recommended long term version** |\n| :--- |:--- | :--- |\n| mongoose 6.0.11  | 6.12.3  | 8.0.2 |\n\n### Upgrade Guidance for Transitive dependency\n\n| **Affected Transitive Dependency**  | **Recommended short term version** | **Recommended long term version** |\n| :--- | :--- | :--- |\n| mongodb 4.1.2  | 4.17.1  | 6.3.0 |\n\n\n\n[Click Here To See More Details in Black Duck](https://testing.blackduck.synopsys.com/api/projects/f92df77e-7886-4c35-9792-516829ecf7e9/versions/875c7b55-9ee3-4c63-bb15-8570e601112b/vulnerability-bom?selectedComponent=f42494a5-c6c1-484c-a065-120c6c6842db)\n\n## Vulnerabilities(BDSA,CVE)\n\n \n| **Severity**  | **Vulnerability** | **Summary** | **Solution Available?** | **Workaround Available?** |\n| :--- |:--- | :--- | :--- | :--- |\n| :orange_circle: | [CVE-2021-32050](https://nvd.nist.gov/vuln/detail/CVE-2021-32050) | Not Available | - | - |\n\n\n## Dependency tree\n- zq-vulnerable-app-01/1.0.0/-npm\n    - mongoose/6.0.11\n        - mongodb/4.1.2\n\n\n## References\n* Common Weakness Enumeration: [CWE-532](https://cwe.mitre.org/data/definitions/532.html)\n\n",
+                "text": "- [:orange_circle:] [CVE-2021-32050](https://nvd.nist.gov/vuln/detail/CVE-2021-32050)\n"
+              },
+              "properties": {
+                "security-severity": "8.9",
+                "tags": [
+                  "security",
+                  "open_source_analysis",
+                  "transitive_dependency",
+                  "patch_available",
+                  "external/cwe/cwe-532"
+                ]
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              }
+            },
+            {
+              "id": "mongodb 4.1.2: mongoose-unique-validator 2.0.4",
+              "shortDescription": {
+                "text": "Transitive Dependency: mongodb 4.1.2 from mongoose-unique-validator 2.0.4"
+              },
+              "fullDescription": {
+                "text": "- [:orange_circle:] [CVE-2021-32050](https://nvd.nist.gov/vuln/detail/CVE-2021-32050)\n"
+              },
+              "help": {
+                "markdown": "\n## Upgrade Guidance\n\n\n### Upgrade Guidance for Direct dependency\n\n| **Affected Direct Dependency**  | **Recommended short term version** | **Recommended long term version** |\n| :--- |:--- | :--- |\n| mongoose-unique-validator 2.0.4  | Not available  | 4.0.0 |\n\n### Upgrade Guidance for Transitive dependency\n\n| **Affected Transitive Dependency**  | **Recommended short term version** | **Recommended long term version** |\n| :--- | :--- | :--- |\n| mongodb 4.1.2  | 4.17.1  | 6.3.0 |\n\n\n\n[Click Here To See More Details in Black Duck](https://testing.blackduck.synopsys.com/api/projects/f92df77e-7886-4c35-9792-516829ecf7e9/versions/875c7b55-9ee3-4c63-bb15-8570e601112b/vulnerability-bom?selectedComponent=f42494a5-c6c1-484c-a065-120c6c6842db)\n\n## Vulnerabilities(BDSA,CVE)\n\n \n| **Severity**  | **Vulnerability** | **Summary** | **Solution Available?** | **Workaround Available?** |\n| :--- |:--- | :--- | :--- | :--- |\n| :orange_circle: | [CVE-2021-32050](https://nvd.nist.gov/vuln/detail/CVE-2021-32050) | Not Available | - | - |\n\n\n## Dependency tree\n- zq-vulnerable-app-01/1.0.0/-npm\n    - mongoose-unique-validator/2.0.4\n        - mongoose/6.0.11\n            - mongodb/4.1.2\n\n\n## References\n* Common Weakness Enumeration: [CWE-532](https://cwe.mitre.org/data/definitions/532.html)\n\n",
+                "text": "- [:orange_circle:] [CVE-2021-32050](https://nvd.nist.gov/vuln/detail/CVE-2021-32050)\n"
+              },
+              "properties": {
+                "security-severity": "8.9",
+                "tags": [
+                  "security",
+                  "open_source_analysis",
+                  "transitive_dependency",
+                  "patch_available",
+                  "external/cwe/cwe-532"
+                ]
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              }
+            },
+            {
+              "id": "@sideway/formula 3.0.0: express-joi-validation 5.0.0",
+              "shortDescription": {
+                "text": "Transitive Dependency: @sideway/formula 3.0.0 from express-joi-validation 5.0.0"
+              },
+              "fullDescription": {
+                "text": "- [:yellow_circle:] [CVE-2023-25166](https://nvd.nist.gov/vuln/detail/CVE-2023-25166)\n"
+              },
+              "help": {
+                "markdown": "\n## Upgrade Guidance\n\n\n### Upgrade Guidance for Direct dependency\n\n| **Affected Direct Dependency**  | **Recommended short term version** | **Recommended long term version** |\n| :--- |:--- | :--- |\n| express-joi-validation 5.0.0  | Not available  | Not available |\n\n### Upgrade Guidance for Transitive dependency\n\n| **Affected Transitive Dependency**  | **Recommended short term version** | **Recommended long term version** |\n| :--- | :--- | :--- |\n| @sideway/formula 3.0.0  | 3.0.1  | 3.0.1 |\n\n\n\n[Click Here To See More Details in Black Duck](https://testing.blackduck.synopsys.com/api/projects/f92df77e-7886-4c35-9792-516829ecf7e9/versions/875c7b55-9ee3-4c63-bb15-8570e601112b/vulnerability-bom?selectedComponent=5c6e5c6c-3dcf-4f6e-b951-8e157cbceeaa)\n\n## Vulnerabilities(BDSA,CVE)\n\n \n| **Severity**  | **Vulnerability** | **Summary** | **Solution Available?** | **Workaround Available?** |\n| :--- |:--- | :--- | :--- | :--- |\n| :yellow_circle: | [CVE-2023-25166](https://nvd.nist.gov/vuln/detail/CVE-2023-25166) | Not Available | - | - |\n\n\n## Dependency tree\n- zq-vulnerable-app-01/1.0.0/-npm\n    - express-joi-validation/5.0.0\n        - joi/17.4.2\n            - @sideway/formula/3.0.0\n\n\n## References\n* Common Weakness Enumeration: [CWE-1333](https://cwe.mitre.org/data/definitions/1333.html)\n\n",
+                "text": "- [:yellow_circle:] [CVE-2023-25166](https://nvd.nist.gov/vuln/detail/CVE-2023-25166)\n"
+              },
+              "properties": {
+                "security-severity": "6.8",
+                "tags": [
+                  "security",
+                  "open_source_analysis",
+                  "transitive_dependency",
+                  "external/cwe/cwe-1333"
+                ]
+              },
+              "defaultConfiguration": {
+                "level": "warning"
+              }
+            },
+            {
+              "id": "@sideway/formula 3.0.0: joi 17.4.2",
+              "shortDescription": {
+                "text": "Transitive Dependency: @sideway/formula 3.0.0 from joi 17.4.2"
+              },
+              "fullDescription": {
+                "text": "- [:yellow_circle:] [CVE-2023-25166](https://nvd.nist.gov/vuln/detail/CVE-2023-25166)\n"
+              },
+              "help": {
+                "markdown": "\n## Upgrade Guidance\n\n\n### Upgrade Guidance for Direct dependency\n\n| **Affected Direct Dependency**  | **Recommended short term version** | **Recommended long term version** |\n| :--- |:--- | :--- |\n| joi 17.4.2  | 17.11.0  | 17.11.0 |\n\n### Upgrade Guidance for Transitive dependency\n\n| **Affected Transitive Dependency**  | **Recommended short term version** | **Recommended long term version** |\n| :--- | :--- | :--- |\n| @sideway/formula 3.0.0  | 3.0.1  | 3.0.1 |\n\n\n\n[Click Here To See More Details in Black Duck](https://testing.blackduck.synopsys.com/api/projects/f92df77e-7886-4c35-9792-516829ecf7e9/versions/875c7b55-9ee3-4c63-bb15-8570e601112b/vulnerability-bom?selectedComponent=5c6e5c6c-3dcf-4f6e-b951-8e157cbceeaa)\n\n## Vulnerabilities(BDSA,CVE)\n\n \n| **Severity**  | **Vulnerability** | **Summary** | **Solution Available?** | **Workaround Available?** |\n| :--- |:--- | :--- | :--- | :--- |\n| :yellow_circle: | [CVE-2023-25166](https://nvd.nist.gov/vuln/detail/CVE-2023-25166) | Not Available | - | - |\n\n\n## Dependency tree\n- zq-vulnerable-app-01/1.0.0/-npm\n    - joi/17.4.2\n        - @sideway/formula/3.0.0\n\n\n## References\n* Common Weakness Enumeration: [CWE-1333](https://cwe.mitre.org/data/definitions/1333.html)\n\n",
+                "text": "- [:yellow_circle:] [CVE-2023-25166](https://nvd.nist.gov/vuln/detail/CVE-2023-25166)\n"
+              },
+              "properties": {
+                "security-severity": "6.8",
+                "tags": [
+                  "security",
+                  "open_source_analysis",
+                  "transitive_dependency",
+                  "patch_available",
+                  "external/cwe/cwe-1333"
+                ]
+              },
+              "defaultConfiguration": {
+                "level": "warning"
+              }
+            },
+            {
+              "id": "dicer 0.3.0: express-fileupload 1.2.1",
+              "shortDescription": {
+                "text": "Transitive Dependency: dicer 0.3.0 from express-fileupload 1.2.1"
+              },
+              "fullDescription": {
+                "text": "- [:orange_circle:] [BDSA-2021-4625](https://openhub.net/vulnerabilities/bdsa/BDSA-2021-4625) (CVE-2022-24434)\n"
+              },
+              "help": {
+                "markdown": "\n## Upgrade Guidance\n\n\n### Upgrade Guidance for Direct dependency\n\n| **Affected Direct Dependency**  | **Recommended short term version** | **Recommended long term version** |\n| :--- |:--- | :--- |\n| express-fileupload 1.2.1  | 1.4.3  | 1.4.3 |\n\n### Upgrade Guidance for Transitive dependency\n\n| **Affected Transitive Dependency**  | **Recommended short term version** | **Recommended long term version** |\n| :--- | :--- | :--- |\n| dicer 0.3.0  | 0.3.1  | 0.3.1 |\n\n\n\n[Click Here To See More Details in Black Duck](https://testing.blackduck.synopsys.com/api/projects/f92df77e-7886-4c35-9792-516829ecf7e9/versions/875c7b55-9ee3-4c63-bb15-8570e601112b/vulnerability-bom?selectedComponent=31d0b4d6-f64f-455e-80b3-7226b2d6d297)\n\n## Vulnerabilities(BDSA,CVE)\n\n \n| **Severity**  | **Vulnerability** | **Summary** | **Solution Available?** | **Workaround Available?** |\n| :--- |:--- | :--- | :--- | :--- |\n| :orange_circle: | [BDSA-2021-4625](https://openhub.net/vulnerabilities/bdsa/BDSA-2021-4625) ([CVE-2022-24434](https://nvd.nist.gov/vuln/detail/CVE-2022-24434)) | dicer Vulnerable to Denial-of-Service (DoS) via 'HeaderParser' Uninitialized Variable Usage With Specially Crafted Multipart/Form-Data Header Names | Yes | - |\n\n\n## Dependency tree\n- zq-vulnerable-app-01/1.0.0/-npm\n    - express-fileupload/1.2.1\n        - busboy/0.3.1\n            - dicer/0.3.0\n\n\n## References\n* Common Weakness Enumeration: [CWE-457](https://cwe.mitre.org/data/definitions/457.html)\n\n",
+                "text": "- [:orange_circle:] [BDSA-2021-4625](https://openhub.net/vulnerabilities/bdsa/BDSA-2021-4625) (CVE-2022-24434)\n"
+              },
+              "properties": {
+                "security-severity": "8.9",
+                "tags": [
+                  "security",
+                  "open_source_analysis",
+                  "transitive_dependency",
+                  "patch_available",
+                  "external/cwe/cwe-457"
+                ]
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              }
+            },
+            {
+              "id": "express-fileupload 1.2.1",
+              "shortDescription": {
+                "text": "Direct Dependency: express-fileupload 1.2.1"
+              },
+              "fullDescription": {
+                "text": "- [:orange_circle:] [CVE-2022-27261](https://nvd.nist.gov/vuln/detail/CVE-2022-27261)\n"
+              },
+              "help": {
+                "markdown": "\n## Upgrade Guidance\n\n\n\n| **Affected Dependency**  | **Recommended short term version** | **Recommended long term version** |\n| :--- | :--- | :--- |\n| express-fileupload 1.2.1  | 1.4.3  | 1.4.3 |\n\n\n\n[Click Here To See More Details in Black Duck](https://testing.blackduck.synopsys.com/api/projects/f92df77e-7886-4c35-9792-516829ecf7e9/versions/875c7b55-9ee3-4c63-bb15-8570e601112b/vulnerability-bom?selectedComponent=cb1a405b-af97-4197-956a-65238ce7abcc)\n\n## Vulnerabilities(BDSA,CVE)\n\n \n| **Severity**  | **Vulnerability** | **Summary** | **Solution Available?** | **Workaround Available?** |\n| :--- |:--- | :--- | :--- | :--- |\n| :orange_circle: | [CVE-2022-27261](https://nvd.nist.gov/vuln/detail/CVE-2022-27261) | Not Available | - | - |\n\n\n\n\n## References\n* Common Weakness Enumeration: [CWE-434](https://cwe.mitre.org/data/definitions/434.html)\n\n",
+                "text": "- [:orange_circle:] [CVE-2022-27261](https://nvd.nist.gov/vuln/detail/CVE-2022-27261)\n"
+              },
+              "properties": {
+                "security-severity": "8.9",
+                "tags": [
+                  "security",
+                  "open_source_analysis",
+                  "direct_dependency",
+                  "patch_available",
+                  "external/cwe/cwe-434"
+                ]
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              }
+            },
+            {
+              "id": "semver 5.7.1: nodemon 2.0.13",
+              "shortDescription": {
+                "text": "Transitive Dependency: semver 5.7.1 from nodemon 2.0.13"
+              },
+              "fullDescription": {
+                "text": "- [:yellow_circle:] [BDSA-2023-2207](https://openhub.net/vulnerabilities/bdsa/BDSA-2023-2207) (CVE-2022-25883)\n"
+              },
+              "help": {
+                "markdown": "\n## Upgrade Guidance\n\n\n### Upgrade Guidance for Direct dependency\n\n| **Affected Direct Dependency**  | **Recommended short term version** | **Recommended long term version** |\n| :--- |:--- | :--- |\n| nodemon 2.0.13  | 2.0.18  | 3.0.2 |\n\n### Upgrade Guidance for Transitive dependency\n\n| **Affected Transitive Dependency**  | **Recommended short term version** | **Recommended long term version** |\n| :--- | :--- | :--- |\n| semver 5.7.1  | 5.7.2  | 7.5.4 |\n\n\n\n[Click Here To See More Details in Black Duck](https://testing.blackduck.synopsys.com/api/projects/f92df77e-7886-4c35-9792-516829ecf7e9/versions/875c7b55-9ee3-4c63-bb15-8570e601112b/vulnerability-bom?selectedComponent=4de2fb85-cdd1-42d3-b387-9d16ccbafabd)\n\n## Vulnerabilities(BDSA,CVE)\n\n \n| **Severity**  | **Vulnerability** | **Summary** | **Solution Available?** | **Workaround Available?** |\n| :--- |:--- | :--- | :--- | :--- |\n| :yellow_circle: | [BDSA-2023-2207](https://openhub.net/vulnerabilities/bdsa/BDSA-2023-2207) ([CVE-2022-25883](https://nvd.nist.gov/vuln/detail/CVE-2022-25883)) | Node Semver Vulnerable to Regular Expression Denial-of-Service (ReDoS) via Improper Handling of Whitespace in 'range.js' File | Yes | - |\n\n\n## Dependency tree\n- zq-vulnerable-app-01/1.0.0/-npm\n    - nodemon/2.0.13\n        - semver/5.7.1\n\n\n## References\n* Common Weakness Enumeration: [CWE-185](https://cwe.mitre.org/data/definitions/185.html)\n\n",
+                "text": "- [:yellow_circle:] [BDSA-2023-2207](https://openhub.net/vulnerabilities/bdsa/BDSA-2023-2207) (CVE-2022-25883)\n"
+              },
+              "properties": {
+                "security-severity": "6.8",
+                "tags": [
+                  "security",
+                  "open_source_analysis",
+                  "transitive_dependency",
+                  "patch_available",
+                  "external/cwe/cwe-185"
+                ]
+              },
+              "defaultConfiguration": {
+                "level": "warning"
+              }
+            },
+            {
+              "id": "ms 0.6.2: serve-static 1.7.1",
+              "shortDescription": {
+                "text": "Transitive Dependency: ms 0.6.2 from serve-static 1.7.1"
+              },
+              "fullDescription": {
+                "text": "- [:yellow_circle:] [BDSA-2015-0029](https://openhub.net/vulnerabilities/bdsa/BDSA-2015-0029) (CVE-2015-8315)\n- [:yellow_circle:] [BDSA-2017-4122](https://openhub.net/vulnerabilities/bdsa/BDSA-2017-4122) (CVE-2017-20162)\n"
+              },
+              "help": {
+                "markdown": "\n## Upgrade Guidance\n\n\n### Upgrade Guidance for Direct dependency\n\n| **Affected Direct Dependency**  | **Recommended short term version** | **Recommended long term version** |\n| :--- |:--- | :--- |\n| serve-static 1.7.1  | 1.15.0  | 1.15.0 |\n\n### Upgrade Guidance for Transitive dependency\n\n| **Affected Transitive Dependency**  | **Recommended short term version** | **Recommended long term version** |\n| :--- | :--- | :--- |\n| ms 0.6.2  | 0.7.3  | 3.0.0-canary.1 |\n\n\n\n[Click Here To See More Details in Black Duck](https://testing.blackduck.synopsys.com/api/projects/f92df77e-7886-4c35-9792-516829ecf7e9/versions/875c7b55-9ee3-4c63-bb15-8570e601112b/vulnerability-bom?selectedComponent=f70786b4-5920-4bbf-8e32-8e18af7c37ab)\n\n## Vulnerabilities(BDSA,CVE)\n\n \n| **Severity**  | **Vulnerability** | **Summary** | **Solution Available?** | **Workaround Available?** |\n| :--- |:--- | :--- | :--- | :--- |\n| :yellow_circle: | [BDSA-2015-0029](https://openhub.net/vulnerabilities/bdsa/BDSA-2015-0029) ([CVE-2015-8315](https://nvd.nist.gov/vuln/detail/CVE-2015-8315)) | Node.js ms Package Vulnerable to Regular Expression Denial-of-Service via Crafted Input | Yes | - |\n| :yellow_circle: | [BDSA-2017-4122](https://openhub.net/vulnerabilities/bdsa/BDSA-2017-4122) ([CVE-2017-20162](https://nvd.nist.gov/vuln/detail/CVE-2017-20162)) | Vercel ms Vulnerable to Regular Expression Denial of Service (ReDoS) via 'parse' Function | Yes | - |\n\n\n## Dependency tree\n- zq-vulnerable-app-01/1.0.0/-npm\n    - serve-static/1.7.1\n        - send/0.10.1\n            - ms/0.6.2\n\n\n## References\n* Common Weakness Enumeration: [CWE-399](https://cwe.mitre.org/data/definitions/399.html)\n* Common Weakness Enumeration: [CWE-624](https://cwe.mitre.org/data/definitions/624.html)\n* Common Weakness Enumeration: [CWE-185](https://cwe.mitre.org/data/definitions/185.html)\n\n",
+                "text": "- [:yellow_circle:] [BDSA-2015-0029](https://openhub.net/vulnerabilities/bdsa/BDSA-2015-0029) (CVE-2015-8315)\n- [:yellow_circle:] [BDSA-2017-4122](https://openhub.net/vulnerabilities/bdsa/BDSA-2017-4122) (CVE-2017-20162)\n"
+              },
+              "properties": {
+                "security-severity": "6.8",
+                "tags": [
+                  "security",
+                  "open_source_analysis",
+                  "transitive_dependency",
+                  "patch_available",
+                  "external/cwe/cwe-399",
+                  "external/cwe/cwe-624",
+                  "external/cwe/cwe-185"
+                ]
+              },
+              "defaultConfiguration": {
+                "level": "warning"
+              }
+            },
+            {
+              "id": "async 1.5.2: express-blinker 0.0.6",
+              "shortDescription": {
+                "text": "Transitive Dependency: async 1.5.2 from express-blinker 0.0.6"
+              },
+              "fullDescription": {
+                "text": "- [:orange_circle:] [CVE-2021-43138](https://nvd.nist.gov/vuln/detail/CVE-2021-43138)\n"
+              },
+              "help": {
+                "markdown": "\n## Upgrade Guidance\n\n\n### Upgrade Guidance for Direct dependency\n\n| **Affected Direct Dependency**  | **Recommended short term version** | **Recommended long term version** |\n| :--- |:--- | :--- |\n| express-blinker 0.0.6  | Not available  | Not available |\n\n### Upgrade Guidance for Transitive dependency\n\n| **Affected Transitive Dependency**  | **Recommended short term version** | **Recommended long term version** |\n| :--- | :--- | :--- |\n| async 1.5.2  | Not available  | 3.2.5 |\n\n\n\n[Click Here To See More Details in Black Duck](https://testing.blackduck.synopsys.com/api/projects/f92df77e-7886-4c35-9792-516829ecf7e9/versions/875c7b55-9ee3-4c63-bb15-8570e601112b/vulnerability-bom?selectedComponent=10c5f7d4-9b0a-4484-bd09-fac45b7a2f80)\n\n## Vulnerabilities(BDSA,CVE)\n\n \n| **Severity**  | **Vulnerability** | **Summary** | **Solution Available?** | **Workaround Available?** |\n| :--- |:--- | :--- | :--- | :--- |\n| :orange_circle: | [CVE-2021-43138](https://nvd.nist.gov/vuln/detail/CVE-2021-43138) | Not Available | - | - |\n\n\n## Dependency tree\n- zq-vulnerable-app-01/1.0.0/-npm\n    - express-blinker/0.0.6\n        - async/1.5.2\n\n\n## References\n* Common Weakness Enumeration: [CWE-1321](https://cwe.mitre.org/data/definitions/1321.html)\n\n",
+                "text": "- [:orange_circle:] [CVE-2021-43138](https://nvd.nist.gov/vuln/detail/CVE-2021-43138)\n"
+              },
+              "properties": {
+                "security-severity": "8.9",
+                "tags": [
+                  "security",
+                  "open_source_analysis",
+                  "transitive_dependency",
+                  "external/cwe/cwe-1321"
+                ]
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              }
+            },
+            {
+              "id": "express 4.17.1",
+              "shortDescription": {
+                "text": "Direct Dependency: express 4.17.1"
+              },
+              "fullDescription": {
+                "text": "- [:orange_circle:] [CVE-2022-24999](https://nvd.nist.gov/vuln/detail/CVE-2022-24999)\n"
+              },
+              "help": {
+                "markdown": "\n## Upgrade Guidance\n\n\n\n| **Affected Dependency**  | **Recommended short term version** | **Recommended long term version** |\n| :--- | :--- | :--- |\n| express 4.17.1  | 4.18.2  | 4.18.2 |\n\n\n\n[Click Here To See More Details in Black Duck](https://testing.blackduck.synopsys.com/api/projects/f92df77e-7886-4c35-9792-516829ecf7e9/versions/875c7b55-9ee3-4c63-bb15-8570e601112b/vulnerability-bom?selectedComponent=061eb274-e4bf-46d0-8f9d-4fc24e1252de)\n\n## Vulnerabilities(BDSA,CVE)\n\n \n| **Severity**  | **Vulnerability** | **Summary** | **Solution Available?** | **Workaround Available?** |\n| :--- |:--- | :--- | :--- | :--- |\n| :orange_circle: | [CVE-2022-24999](https://nvd.nist.gov/vuln/detail/CVE-2022-24999) | Not Available | - | - |\n\n\n\n\n## References\n* Common Weakness Enumeration: [CWE-1321](https://cwe.mitre.org/data/definitions/1321.html)\n\n",
+                "text": "- [:orange_circle:] [CVE-2022-24999](https://nvd.nist.gov/vuln/detail/CVE-2022-24999)\n"
+              },
+              "properties": {
+                "security-severity": "8.9",
+                "tags": [
+                  "security",
+                  "open_source_analysis",
+                  "direct_dependency",
+                  "patch_available",
+                  "external/cwe/cwe-1321"
+                ]
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              }
+            },
+            {
+              "id": "ms 0.7.0: serve-static 1.7.1",
+              "shortDescription": {
+                "text": "Transitive Dependency: ms 0.7.0 from serve-static 1.7.1"
+              },
+              "fullDescription": {
+                "text": "- [:yellow_circle:] [BDSA-2015-0029](https://openhub.net/vulnerabilities/bdsa/BDSA-2015-0029) (CVE-2015-8315)\n- [:yellow_circle:] [BDSA-2017-4122](https://openhub.net/vulnerabilities/bdsa/BDSA-2017-4122) (CVE-2017-20162)\n"
+              },
+              "help": {
+                "markdown": "\n## Upgrade Guidance\n\n\n### Upgrade Guidance for Direct dependency\n\n| **Affected Direct Dependency**  | **Recommended short term version** | **Recommended long term version** |\n| :--- |:--- | :--- |\n| serve-static 1.7.1  | 1.15.0  | 1.15.0 |\n\n### Upgrade Guidance for Transitive dependency\n\n| **Affected Transitive Dependency**  | **Recommended short term version** | **Recommended long term version** |\n| :--- | :--- | :--- |\n| ms 0.7.0  | 0.7.3  | 3.0.0-canary.1 |\n\n\n\n[Click Here To See More Details in Black Duck](https://testing.blackduck.synopsys.com/api/projects/f92df77e-7886-4c35-9792-516829ecf7e9/versions/875c7b55-9ee3-4c63-bb15-8570e601112b/vulnerability-bom?selectedComponent=90c62aae-c27d-459c-a83d-4559e99619d5)\n\n## Vulnerabilities(BDSA,CVE)\n\n \n| **Severity**  | **Vulnerability** | **Summary** | **Solution Available?** | **Workaround Available?** |\n| :--- |:--- | :--- | :--- | :--- |\n| :yellow_circle: | [BDSA-2015-0029](https://openhub.net/vulnerabilities/bdsa/BDSA-2015-0029) ([CVE-2015-8315](https://nvd.nist.gov/vuln/detail/CVE-2015-8315)) | Node.js ms Package Vulnerable to Regular Expression Denial-of-Service via Crafted Input | Yes | - |\n| :yellow_circle: | [BDSA-2017-4122](https://openhub.net/vulnerabilities/bdsa/BDSA-2017-4122) ([CVE-2017-20162](https://nvd.nist.gov/vuln/detail/CVE-2017-20162)) | Vercel ms Vulnerable to Regular Expression Denial of Service (ReDoS) via 'parse' Function | Yes | - |\n\n\n## Dependency tree\n- zq-vulnerable-app-01/1.0.0/-npm\n    - serve-static/1.7.1\n        - send/0.10.1\n            - debug/2.1.3\n                - ms/0.7.0\n\n\n## References\n* Common Weakness Enumeration: [CWE-399](https://cwe.mitre.org/data/definitions/399.html)\n* Common Weakness Enumeration: [CWE-624](https://cwe.mitre.org/data/definitions/624.html)\n* Common Weakness Enumeration: [CWE-185](https://cwe.mitre.org/data/definitions/185.html)\n\n",
+                "text": "- [:yellow_circle:] [BDSA-2015-0029](https://openhub.net/vulnerabilities/bdsa/BDSA-2015-0029) (CVE-2015-8315)\n- [:yellow_circle:] [BDSA-2017-4122](https://openhub.net/vulnerabilities/bdsa/BDSA-2017-4122) (CVE-2017-20162)\n"
+              },
+              "properties": {
+                "security-severity": "6.8",
+                "tags": [
+                  "security",
+                  "open_source_analysis",
+                  "transitive_dependency",
+                  "patch_available",
+                  "external/cwe/cwe-399",
+                  "external/cwe/cwe-624",
+                  "external/cwe/cwe-185"
+                ]
+              },
+              "defaultConfiguration": {
+                "level": "warning"
+              }
+            },
+            {
+              "id": "minimatch 3.0.4: nodemon 2.0.13",
+              "shortDescription": {
+                "text": "Transitive Dependency: minimatch 3.0.4 from nodemon 2.0.13"
+              },
+              "fullDescription": {
+                "text": "- [:yellow_circle:] [BDSA-2022-2922](https://openhub.net/vulnerabilities/bdsa/BDSA-2022-2922) (CVE-2022-3517)\n"
+              },
+              "help": {
+                "markdown": "\n## Upgrade Guidance\n\n\n### Upgrade Guidance for Direct dependency\n\n| **Affected Direct Dependency**  | **Recommended short term version** | **Recommended long term version** |\n| :--- |:--- | :--- |\n| nodemon 2.0.13  | 2.0.18  | 3.0.2 |\n\n### Upgrade Guidance for Transitive dependency\n\n| **Affected Transitive Dependency**  | **Recommended short term version** | **Recommended long term version** |\n| :--- | :--- | :--- |\n| minimatch 3.0.4  | 3.1.2  | 9.0.3 |\n\n\n\n[Click Here To See More Details in Black Duck](https://testing.blackduck.synopsys.com/api/projects/f92df77e-7886-4c35-9792-516829ecf7e9/versions/875c7b55-9ee3-4c63-bb15-8570e601112b/vulnerability-bom?selectedComponent=3c10c76e-af4e-4d7d-b756-ee32e5345f3a)\n\n## Vulnerabilities(BDSA,CVE)\n\n \n| **Severity**  | **Vulnerability** | **Summary** | **Solution Available?** | **Workaround Available?** |\n| :--- |:--- | :--- | :--- | :--- |\n| :yellow_circle: | [BDSA-2022-2922](https://openhub.net/vulnerabilities/bdsa/BDSA-2022-2922) ([CVE-2022-3517](https://nvd.nist.gov/vuln/detail/CVE-2022-3517)) | Minimatch Package Vulnerable to Regular Expression Denial-of-Service (ReDoS) when Calling 'braceExpand()' Function with Specific Arguments | Yes | - |\n\n\n## Dependency tree\n- zq-vulnerable-app-01/1.0.0/-npm\n    - nodemon/2.0.13\n        - minimatch/3.0.4\n\n\n## References\n* Common Weakness Enumeration: [CWE-20](https://cwe.mitre.org/data/definitions/20.html)\n* Common Weakness Enumeration: [CWE-400](https://cwe.mitre.org/data/definitions/400.html)\n\n",
+                "text": "- [:yellow_circle:] [BDSA-2022-2922](https://openhub.net/vulnerabilities/bdsa/BDSA-2022-2922) (CVE-2022-3517)\n"
+              },
+              "properties": {
+                "security-severity": "6.8",
+                "tags": [
+                  "security",
+                  "open_source_analysis",
+                  "transitive_dependency",
+                  "patch_available",
+                  "external/cwe/cwe-20",
+                  "external/cwe/cwe-400"
+                ]
+              },
+              "defaultConfiguration": {
+                "level": "warning"
+              }
+            },
+            {
+              "id": "serve-static 1.7.1",
+              "shortDescription": {
+                "text": "Direct Dependency: serve-static 1.7.1"
+              },
+              "fullDescription": {
+                "text": "- [:orange_circle:] [BDSA-2015-0707](https://openhub.net/vulnerabilities/bdsa/BDSA-2015-0707) (CVE-2015-1164)\n"
+              },
+              "help": {
+                "markdown": "\n## Upgrade Guidance\n\n\n\n| **Affected Dependency**  | **Recommended short term version** | **Recommended long term version** |\n| :--- | :--- | :--- |\n| serve-static 1.7.1  | 1.15.0  | 1.15.0 |\n\n\n\n[Click Here To See More Details in Black Duck](https://testing.blackduck.synopsys.com/api/projects/f92df77e-7886-4c35-9792-516829ecf7e9/versions/875c7b55-9ee3-4c63-bb15-8570e601112b/vulnerability-bom?selectedComponent=59e9bd2c-d65f-48ad-85cc-e03502fac9ef)\n\n## Vulnerabilities(BDSA,CVE)\n\n \n| **Severity**  | **Vulnerability** | **Summary** | **Solution Available?** | **Workaround Available?** |\n| :--- |:--- | :--- | :--- | :--- |\n| :orange_circle: | [BDSA-2015-0707](https://openhub.net/vulnerabilities/bdsa/BDSA-2015-0707) ([CVE-2015-1164](https://nvd.nist.gov/vuln/detail/CVE-2015-1164)) | Node.js serve-static Module Vulnerable to Open Redirect via Mount at Root Directory | Yes | Yes |\n\n\n\n\n## References\n* Common Weakness Enumeration: [CWE-601](https://cwe.mitre.org/data/definitions/601.html)\n\n",
+                "text": "- [:orange_circle:] [BDSA-2015-0707](https://openhub.net/vulnerabilities/bdsa/BDSA-2015-0707) (CVE-2015-1164)\n"
+              },
+              "properties": {
+                "security-severity": "8.9",
+                "tags": [
+                  "security",
+                  "open_source_analysis",
+                  "direct_dependency",
+                  "patch_available",
+                  "external/cwe/cwe-601"
+                ]
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              }
+            },
+            {
+              "id": "qs 6.7.0: express 4.17.1",
+              "shortDescription": {
+                "text": "Transitive Dependency: qs 6.7.0 from express 4.17.1"
+              },
+              "fullDescription": {
+                "text": "- [:yellow_circle:] [BDSA-2022-3375](https://openhub.net/vulnerabilities/bdsa/BDSA-2022-3375) (CVE-2022-24999)\n"
+              },
+              "help": {
+                "markdown": "\n## Upgrade Guidance\n\n\n### Upgrade Guidance for Direct dependency\n\n| **Affected Direct Dependency**  | **Recommended short term version** | **Recommended long term version** |\n| :--- |:--- | :--- |\n| express 4.17.1  | 4.18.2  | 4.18.2 |\n\n### Upgrade Guidance for Transitive dependency\n\n| **Affected Transitive Dependency**  | **Recommended short term version** | **Recommended long term version** |\n| :--- | :--- | :--- |\n| qs 6.7.0  | 6.11.2  | 6.11.2 |\n\n\n\n[Click Here To See More Details in Black Duck](https://testing.blackduck.synopsys.com/api/projects/f92df77e-7886-4c35-9792-516829ecf7e9/versions/875c7b55-9ee3-4c63-bb15-8570e601112b/vulnerability-bom?selectedComponent=2c6c6986-70cb-4d04-a566-2c53d289282c)\n\n## Vulnerabilities(BDSA,CVE)\n\n \n| **Severity**  | **Vulnerability** | **Summary** | **Solution Available?** | **Workaround Available?** |\n| :--- |:--- | :--- | :--- | :--- |\n| :yellow_circle: | [BDSA-2022-3375](https://openhub.net/vulnerabilities/bdsa/BDSA-2022-3375) ([CVE-2022-24999](https://nvd.nist.gov/vuln/detail/CVE-2022-24999)) | qs Vulnerable to Denial-of-Service (DoS) via Large Array as 'proto' Property | Yes | - |\n\n\n## Dependency tree\n- zq-vulnerable-app-01/1.0.0/-npm\n    - express/4.17.1\n        - body-parser/1.19.0\n            - qs/6.7.0\n- zq-vulnerable-app-01/1.0.0/-npm\n    - express/4.17.1\n        - qs/6.7.0\n\n\n## References\n* Common Weakness Enumeration: [CWE-241](https://cwe.mitre.org/data/definitions/241.html)\n\n",
+                "text": "- [:yellow_circle:] [BDSA-2022-3375](https://openhub.net/vulnerabilities/bdsa/BDSA-2022-3375) (CVE-2022-24999)\n"
+              },
+              "properties": {
+                "security-severity": "6.8",
+                "tags": [
+                  "security",
+                  "open_source_analysis",
+                  "transitive_dependency",
+                  "patch_available",
+                  "external/cwe/cwe-241"
+                ]
+              },
+              "defaultConfiguration": {
+                "level": "warning"
+              }
+            },
+            {
+              "id": "qs 6.7.0: body-parser 1.19.0",
+              "shortDescription": {
+                "text": "Transitive Dependency: qs 6.7.0 from body-parser 1.19.0"
+              },
+              "fullDescription": {
+                "text": "- [:yellow_circle:] [BDSA-2022-3375](https://openhub.net/vulnerabilities/bdsa/BDSA-2022-3375) (CVE-2022-24999)\n"
+              },
+              "help": {
+                "markdown": "\n## Upgrade Guidance\n\n\n### Upgrade Guidance for Direct dependency\n\n| **Affected Direct Dependency**  | **Recommended short term version** | **Recommended long term version** |\n| :--- |:--- | :--- |\n| body-parser 1.19.0  | 1.20.2  | 1.20.2 |\n\n### Upgrade Guidance for Transitive dependency\n\n| **Affected Transitive Dependency**  | **Recommended short term version** | **Recommended long term version** |\n| :--- | :--- | :--- |\n| qs 6.7.0  | 6.11.2  | 6.11.2 |\n\n\n\n[Click Here To See More Details in Black Duck](https://testing.blackduck.synopsys.com/api/projects/f92df77e-7886-4c35-9792-516829ecf7e9/versions/875c7b55-9ee3-4c63-bb15-8570e601112b/vulnerability-bom?selectedComponent=2c6c6986-70cb-4d04-a566-2c53d289282c)\n\n## Vulnerabilities(BDSA,CVE)\n\n \n| **Severity**  | **Vulnerability** | **Summary** | **Solution Available?** | **Workaround Available?** |\n| :--- |:--- | :--- | :--- | :--- |\n| :yellow_circle: | [BDSA-2022-3375](https://openhub.net/vulnerabilities/bdsa/BDSA-2022-3375) ([CVE-2022-24999](https://nvd.nist.gov/vuln/detail/CVE-2022-24999)) | qs Vulnerable to Denial-of-Service (DoS) via Large Array as 'proto' Property | Yes | - |\n\n\n## Dependency tree\n- zq-vulnerable-app-01/1.0.0/-npm\n    - body-parser/1.19.0\n        - qs/6.7.0\n\n\n## References\n* Common Weakness Enumeration: [CWE-241](https://cwe.mitre.org/data/definitions/241.html)\n\n",
+                "text": "- [:yellow_circle:] [BDSA-2022-3375](https://openhub.net/vulnerabilities/bdsa/BDSA-2022-3375) (CVE-2022-24999)\n"
+              },
+              "properties": {
+                "security-severity": "6.8",
+                "tags": [
+                  "security",
+                  "open_source_analysis",
+                  "transitive_dependency",
+                  "patch_available",
+                  "external/cwe/cwe-241"
+                ]
+              },
+              "defaultConfiguration": {
+                "level": "warning"
+              }
+            },
+            {
+              "id": "dicer 0.2.5: multer 1.4.3",
+              "shortDescription": {
+                "text": "Transitive Dependency: dicer 0.2.5 from multer 1.4.3"
+              },
+              "fullDescription": {
+                "text": "- [:orange_circle:] [BDSA-2021-4625](https://openhub.net/vulnerabilities/bdsa/BDSA-2021-4625) (CVE-2022-24434)\n"
+              },
+              "help": {
+                "markdown": "\n## Upgrade Guidance\n\n\n### Upgrade Guidance for Direct dependency\n\n| **Affected Direct Dependency**  | **Recommended short term version** | **Recommended long term version** |\n| :--- |:--- | :--- |\n| multer 1.4.3  | 1.4.5-lts.1  | 1.4.5-lts.1 |\n\n### Upgrade Guidance for Transitive dependency\n\n| **Affected Transitive Dependency**  | **Recommended short term version** | **Recommended long term version** |\n| :--- | :--- | :--- |\n| dicer 0.2.5  | 0.3.1  | 0.3.1 |\n\n\n\n[Click Here To See More Details in Black Duck](https://testing.blackduck.synopsys.com/api/projects/f92df77e-7886-4c35-9792-516829ecf7e9/versions/875c7b55-9ee3-4c63-bb15-8570e601112b/vulnerability-bom?selectedComponent=d3c13162-a648-4c96-ad20-16efd815d006)\n\n## Vulnerabilities(BDSA,CVE)\n\n \n| **Severity**  | **Vulnerability** | **Summary** | **Solution Available?** | **Workaround Available?** |\n| :--- |:--- | :--- | :--- | :--- |\n| :orange_circle: | [BDSA-2021-4625](https://openhub.net/vulnerabilities/bdsa/BDSA-2021-4625) ([CVE-2022-24434](https://nvd.nist.gov/vuln/detail/CVE-2022-24434)) | dicer Vulnerable to Denial-of-Service (DoS) via 'HeaderParser' Uninitialized Variable Usage With Specially Crafted Multipart/Form-Data Header Names | Yes | - |\n\n\n## Dependency tree\n- zq-vulnerable-app-01/1.0.0/-npm\n    - multer/1.4.3\n        - busboy/0.2.14\n            - dicer/0.2.5\n\n\n## References\n* Common Weakness Enumeration: [CWE-457](https://cwe.mitre.org/data/definitions/457.html)\n\n",
+                "text": "- [:orange_circle:] [BDSA-2021-4625](https://openhub.net/vulnerabilities/bdsa/BDSA-2021-4625) (CVE-2022-24434)\n"
+              },
+              "properties": {
+                "security-severity": "8.9",
+                "tags": [
+                  "security",
+                  "open_source_analysis",
+                  "transitive_dependency",
+                  "patch_available",
+                  "external/cwe/cwe-457"
+                ]
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              }
+            },
+            {
+              "id": "axios 0.22.0",
+              "shortDescription": {
+                "text": "Direct Dependency: axios 0.22.0"
+              },
+              "fullDescription": {
+                "text": "- [:orange_circle:] [BDSA-2023-2855](https://openhub.net/vulnerabilities/bdsa/BDSA-2023-2855) (CVE-2023-45857)\n"
+              },
+              "help": {
+                "markdown": "\n## Upgrade Guidance\n\n\n\n| **Affected Dependency**  | **Recommended short term version** | **Recommended long term version** |\n| :--- | :--- | :--- |\n| axios 0.22.0  | 0.27.2  | 1.6.2 |\n\n\n\n[Click Here To See More Details in Black Duck](https://testing.blackduck.synopsys.com/api/projects/f92df77e-7886-4c35-9792-516829ecf7e9/versions/875c7b55-9ee3-4c63-bb15-8570e601112b/vulnerability-bom?selectedComponent=364243ca-ce1f-4d6f-8d70-9fac039b3c94)\n\n## Vulnerabilities(BDSA,CVE)\n\n \n| **Severity**  | **Vulnerability** | **Summary** | **Solution Available?** | **Workaround Available?** |\n| :--- |:--- | :--- | :--- | :--- |\n| :orange_circle: | [BDSA-2023-2855](https://openhub.net/vulnerabilities/bdsa/BDSA-2023-2855) ([CVE-2023-45857](https://nvd.nist.gov/vuln/detail/CVE-2023-45857)) | Axios Vulnerable to Cross-Site Request Forgery (CSRF) via Insecure HTTP Endpoint Permission Validation in 'xhr.js' File | Yes | - |\n\n\n\n\n## References\n* Common Weakness Enumeration: [CWE-352](https://cwe.mitre.org/data/definitions/352.html)\n\n",
+                "text": "- [:orange_circle:] [BDSA-2023-2855](https://openhub.net/vulnerabilities/bdsa/BDSA-2023-2855) (CVE-2023-45857)\n"
+              },
+              "properties": {
+                "security-severity": "8.9",
+                "tags": [
+                  "security",
+                  "open_source_analysis",
+                  "direct_dependency",
+                  "patch_available",
+                  "external/cwe/cwe-352"
+                ]
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              }
+            },
+            {
+              "id": "semver 7.3.5: nodemon 2.0.13",
+              "shortDescription": {
+                "text": "Transitive Dependency: semver 7.3.5 from nodemon 2.0.13"
+              },
+              "fullDescription": {
+                "text": "- [:yellow_circle:] [BDSA-2023-2207](https://openhub.net/vulnerabilities/bdsa/BDSA-2023-2207) (CVE-2022-25883)\n"
+              },
+              "help": {
+                "markdown": "\n## Upgrade Guidance\n\n\n### Upgrade Guidance for Direct dependency\n\n| **Affected Direct Dependency**  | **Recommended short term version** | **Recommended long term version** |\n| :--- |:--- | :--- |\n| nodemon 2.0.13  | 2.0.18  | 3.0.2 |\n\n### Upgrade Guidance for Transitive dependency\n\n| **Affected Transitive Dependency**  | **Recommended short term version** | **Recommended long term version** |\n| :--- | :--- | :--- |\n| semver 7.3.5  | 7.5.4  | 7.5.4 |\n\n\n\n[Click Here To See More Details in Black Duck](https://testing.blackduck.synopsys.com/api/projects/f92df77e-7886-4c35-9792-516829ecf7e9/versions/875c7b55-9ee3-4c63-bb15-8570e601112b/vulnerability-bom?selectedComponent=4f14a818-7b67-49a1-acec-94c2b0ff5b1d)\n\n## Vulnerabilities(BDSA,CVE)\n\n \n| **Severity**  | **Vulnerability** | **Summary** | **Solution Available?** | **Workaround Available?** |\n| :--- |:--- | :--- | :--- | :--- |\n| :yellow_circle: | [BDSA-2023-2207](https://openhub.net/vulnerabilities/bdsa/BDSA-2023-2207) ([CVE-2022-25883](https://nvd.nist.gov/vuln/detail/CVE-2022-25883)) | Node Semver Vulnerable to Regular Expression Denial-of-Service (ReDoS) via Improper Handling of Whitespace in 'range.js' File | Yes | - |\n\n\n## Dependency tree\n- zq-vulnerable-app-01/1.0.0/-npm\n    - nodemon/2.0.13\n        - update-notifier/5.1.0\n            - semver/7.3.5\n\n\n## References\n* Common Weakness Enumeration: [CWE-185](https://cwe.mitre.org/data/definitions/185.html)\n\n",
+                "text": "- [:yellow_circle:] [BDSA-2023-2207](https://openhub.net/vulnerabilities/bdsa/BDSA-2023-2207) (CVE-2022-25883)\n"
+              },
+              "properties": {
+                "security-severity": "6.8",
+                "tags": [
+                  "security",
+                  "open_source_analysis",
+                  "transitive_dependency",
+                  "patch_available",
+                  "external/cwe/cwe-185"
+                ]
+              },
+              "defaultConfiguration": {
+                "level": "warning"
+              }
+            },
+            {
+              "id": "jsonwebtoken 0.4.0",
+              "shortDescription": {
+                "text": "Direct Dependency: jsonwebtoken 0.4.0"
+              },
+              "fullDescription": {
+                "text": "- [:orange_circle:] [BDSA-2022-3677](https://openhub.net/vulnerabilities/bdsa/BDSA-2022-3677) (CVE-2022-23540)\n- [:orange_circle:] [BDSA-2015-0758](https://openhub.net/vulnerabilities/bdsa/BDSA-2015-0758) (CVE-2015-9235)\n- [:yellow_circle:] [BDSA-2015-0738](https://openhub.net/vulnerabilities/bdsa/BDSA-2015-0738)\n"
+              },
+              "help": {
+                "markdown": "\n## Upgrade Guidance\n\n\n\n| **Affected Dependency**  | **Recommended short term version** | **Recommended long term version** |\n| :--- | :--- | :--- |\n| jsonwebtoken 0.4.0  | 0.4.1  | 9.0.2 |\n\n\n\n[Click Here To See More Details in Black Duck](https://testing.blackduck.synopsys.com/api/projects/f92df77e-7886-4c35-9792-516829ecf7e9/versions/875c7b55-9ee3-4c63-bb15-8570e601112b/vulnerability-bom?selectedComponent=e1bc6f91-aabb-46ff-81d4-78b1621d6003)\n\n## Vulnerabilities(BDSA,CVE)\n\n \n| **Severity**  | **Vulnerability** | **Summary** | **Solution Available?** | **Workaround Available?** |\n| :--- |:--- | :--- | :--- | :--- |\n| :orange_circle: | [BDSA-2022-3677](https://openhub.net/vulnerabilities/bdsa/BDSA-2022-3677) ([CVE-2022-23540](https://nvd.nist.gov/vuln/detail/CVE-2022-23540)) | node-jsonwebtoken Vulnerable to Cryptographic Signature Bypass via Default Algorithm in 'jwt.verify()' Function | Yes | - |\n| :orange_circle: | [BDSA-2015-0758](https://openhub.net/vulnerabilities/bdsa/BDSA-2015-0758) ([CVE-2015-9235](https://nvd.nist.gov/vuln/detail/CVE-2015-9235)) | JsonWebToken Vulnerable to Verification Bypass via Token Verification in 'secretOrPublicKey' Parameter | Yes | - |\n| :yellow_circle: | [BDSA-2015-0738](https://openhub.net/vulnerabilities/bdsa/BDSA-2015-0738) | JWT Vulnerable to Validation Bypass via Improper Token Validation in 'alg' Field | Yes | - |\n\n\n\n\n## References\n* Common Weakness Enumeration: [CWE-287](https://cwe.mitre.org/data/definitions/287.html)\n* Common Weakness Enumeration: [CWE-347](https://cwe.mitre.org/data/definitions/347.html)\n* Common Weakness Enumeration: [CWE-639](https://cwe.mitre.org/data/definitions/639.html)\n* Common Weakness Enumeration: [CWE-320](https://cwe.mitre.org/data/definitions/320.html)\n\n",
+                "text": "- [:orange_circle:] [BDSA-2022-3677](https://openhub.net/vulnerabilities/bdsa/BDSA-2022-3677) (CVE-2022-23540)\n- [:orange_circle:] [BDSA-2015-0758](https://openhub.net/vulnerabilities/bdsa/BDSA-2015-0758) (CVE-2015-9235)\n- [:yellow_circle:] [BDSA-2015-0738](https://openhub.net/vulnerabilities/bdsa/BDSA-2015-0738)\n"
+              },
+              "properties": {
+                "security-severity": "8.9",
+                "tags": [
+                  "security",
+                  "open_source_analysis",
+                  "direct_dependency",
+                  "patch_available",
+                  "external/cwe/cwe-287",
+                  "external/cwe/cwe-347",
+                  "external/cwe/cwe-639",
+                  "external/cwe/cwe-320"
+                ]
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              }
+            }
+          ]
+        }
+      },
+      "results": [
+        {
+          "message": {
+            "text": "This dependency has vulnerabilities. For detailed information regarding the vulnerabilities, take a look at the BDSAs and/or CVEs below. "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "package.json"
+                },
+                "region": {
+                  "startLine": 12
+                }
+              }
+            }
+          ],
+          "ruleId": "follow-redirects 1.14.4: axios 0.22.0",
+          "partialFingerprints": {
+            "primaryLocationLineHash": "e9406fcaa186cac52b286afff62ff04be8af27ac3fe65c2953259c7d5405e5f6"
+          }
+        },
+        {
+          "message": {
+            "text": "This dependency has vulnerabilities. For detailed information regarding the vulnerabilities, take a look at the BDSAs and/or CVEs below. "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "package.json"
+                },
+                "region": {
+                  "startLine": 37
+                }
+              }
+            }
+          ],
+          "ruleId": "semver 6.3.0: nodemon 2.0.13",
+          "partialFingerprints": {
+            "primaryLocationLineHash": "d66a58477d3f46c96cbc84d37fe87bf8faac632d862ce81deb107f1ea4258746"
+          }
+        },
+        {
+          "message": {
+            "text": "This dependency has vulnerabilities. For detailed information regarding the vulnerabilities, take a look at the BDSAs and/or CVEs below. "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "package.json"
+                },
+                "region": {
+                  "startLine": 29
+                }
+              }
+            }
+          ],
+          "ruleId": "jws 0.2.6: jsonwebtoken 0.4.0",
+          "partialFingerprints": {
+            "primaryLocationLineHash": "60e12b84ce839d2ac55fc275dcd0c7c67f2fbefeaf920ce45e9700bad2fab95c"
+          }
+        },
+        {
+          "message": {
+            "text": "This dependency has vulnerabilities. For detailed information regarding the vulnerabilities, take a look at the BDSAs and/or CVEs below. "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "package.json"
+                },
+                "region": {
+                  "startLine": 35
+                }
+              }
+            }
+          ],
+          "ruleId": "node-serialize 0.0.4",
+          "partialFingerprints": {
+            "primaryLocationLineHash": "105b7a25f465174b4f573e66f8bd4a59f0c099e3b8d3b796374344a3495606db"
+          }
+        },
+        {
+          "message": {
+            "text": "This dependency has vulnerabilities. For detailed information regarding the vulnerabilities, take a look at the BDSAs and/or CVEs below. "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "package.json"
+                },
+                "region": {
+                  "startLine": 30
+                }
+              }
+            }
+          ],
+          "ruleId": "mongoose 6.0.11: mongodb-autoincrement 1.0.1",
+          "partialFingerprints": {
+            "primaryLocationLineHash": "3f9c063af578110f0c03fe8a9048577e5b41b20888f93ae54c3b92c00b44612f"
+          }
+        },
+        {
+          "message": {
+            "text": "This dependency has vulnerabilities. For detailed information regarding the vulnerabilities, take a look at the BDSAs and/or CVEs below. "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "package.json"
+                },
+                "region": {
+                  "startLine": 31
+                }
+              }
+            }
+          ],
+          "ruleId": "mongoose 6.0.11",
+          "partialFingerprints": {
+            "primaryLocationLineHash": "ec7c36381d9e6e9505f7417956d28abb3e1b51779530f7e67c8d2df71b23e33f"
+          }
+        },
+        {
+          "message": {
+            "text": "This dependency has vulnerabilities. For detailed information regarding the vulnerabilities, take a look at the BDSAs and/or CVEs below. "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "package.json"
+                },
+                "region": {
+                  "startLine": 32
+                }
+              }
+            }
+          ],
+          "ruleId": "mongoose 6.0.11: mongoose-unique-validator 2.0.4",
+          "partialFingerprints": {
+            "primaryLocationLineHash": "e13e204214258202e9d28263ec7ac6400f71b1f680bd09542d82504a81277ac2"
+          }
+        },
+        {
+          "message": {
+            "text": "This dependency has vulnerabilities. For detailed information regarding the vulnerabilities, take a look at the BDSAs and/or CVEs below. "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "package.json"
+                },
+                "region": {
+                  "startLine": 22
+                }
+              }
+            }
+          ],
+          "ruleId": "mout 0.12.0: express-error-handler 1.1.0",
+          "partialFingerprints": {
+            "primaryLocationLineHash": "59073604d8e9e4d1db566e4af419088453f294b25ecf8345a0180818b69a4806"
+          }
+        },
+        {
+          "message": {
+            "text": "This dependency has vulnerabilities. For detailed information regarding the vulnerabilities, take a look at the BDSAs and/or CVEs below. "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "package.json"
+                },
+                "region": {
+                  "startLine": 33
+                }
+              }
+            }
+          ],
+          "ruleId": "minimist 1.2.5: multer 1.4.3",
+          "partialFingerprints": {
+            "primaryLocationLineHash": "c11180927d42b79e73c7d98bdae0350205e8a02882ea82d999eadfc2ba8d93e4"
+          }
+        },
+        {
+          "message": {
+            "text": "This dependency has vulnerabilities. For detailed information regarding the vulnerabilities, take a look at the BDSAs and/or CVEs below. "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "package.json"
+                },
+                "region": {
+                  "startLine": 30
+                }
+              }
+            }
+          ],
+          "ruleId": "mongodb 4.1.2: mongodb-autoincrement 1.0.1",
+          "partialFingerprints": {
+            "primaryLocationLineHash": "14e9feb62b0208e76b39db38bc94c274346932136ba37ba2750307cbf82ca459"
+          }
+        },
+        {
+          "message": {
+            "text": "This dependency has vulnerabilities. For detailed information regarding the vulnerabilities, take a look at the BDSAs and/or CVEs below. "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "package.json"
+                },
+                "region": {
+                  "startLine": 31
+                }
+              }
+            }
+          ],
+          "ruleId": "mongodb 4.1.2: mongoose 6.0.11",
+          "partialFingerprints": {
+            "primaryLocationLineHash": "8ed49692d8d8f997f9ef0f555b095947fecf3fd5c03c5f4a041bb64ba5d9bea0"
+          }
+        },
+        {
+          "message": {
+            "text": "This dependency has vulnerabilities. For detailed information regarding the vulnerabilities, take a look at the BDSAs and/or CVEs below. "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "package.json"
+                },
+                "region": {
+                  "startLine": 32
+                }
+              }
+            }
+          ],
+          "ruleId": "mongodb 4.1.2: mongoose-unique-validator 2.0.4",
+          "partialFingerprints": {
+            "primaryLocationLineHash": "6428694a75b53e0912d2f443e6488cb86090dc488f7753e661030afb1b28e06f"
+          }
+        },
+        {
+          "message": {
+            "text": "This dependency has vulnerabilities. For detailed information regarding the vulnerabilities, take a look at the BDSAs and/or CVEs below. "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "package.json"
+                },
+                "region": {
+                  "startLine": 24
+                }
+              }
+            }
+          ],
+          "ruleId": "@sideway/formula 3.0.0: express-joi-validation 5.0.0",
+          "partialFingerprints": {
+            "primaryLocationLineHash": "3c4cb5557e32f8d07c5c7c67357b98a9633cc560210c3488bbff52a66e602f60"
+          }
+        },
+        {
+          "message": {
+            "text": "This dependency has vulnerabilities. For detailed information regarding the vulnerabilities, take a look at the BDSAs and/or CVEs below. "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "package.json"
+                },
+                "region": {
+                  "startLine": 28
+                }
+              }
+            }
+          ],
+          "ruleId": "@sideway/formula 3.0.0: joi 17.4.2",
+          "partialFingerprints": {
+            "primaryLocationLineHash": "a10df99288b3813f27066a1329ba1ab988a28f5321f06dc463402e57ee0b775d"
+          }
+        },
+        {
+          "message": {
+            "text": "This dependency has vulnerabilities. For detailed information regarding the vulnerabilities, take a look at the BDSAs and/or CVEs below. "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "unknown file"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              }
+            }
+          ],
+          "ruleId": "dicer 0.3.0: express-fileupload 1.2.1",
+          "partialFingerprints": {
+            "primaryLocationLineHash": "47617eeff6467dfb44cd712bd1c120bb636233c7f345caa530d91747253ac3b7"
+          }
+        },
+        {
+          "message": {
+            "text": "This dependency has vulnerabilities. For detailed information regarding the vulnerabilities, take a look at the BDSAs and/or CVEs below. "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "unknown file"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              }
+            }
+          ],
+          "ruleId": "express-fileupload 1.2.1",
+          "partialFingerprints": {
+            "primaryLocationLineHash": "bafa6ecf990a044a91648830da7338469ac30c198b94c580ad38a6a70c352ec7"
+          }
+        },
+        {
+          "message": {
+            "text": "This dependency has vulnerabilities. For detailed information regarding the vulnerabilities, take a look at the BDSAs and/or CVEs below. "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "package.json"
+                },
+                "region": {
+                  "startLine": 37
+                }
+              }
+            }
+          ],
+          "ruleId": "semver 5.7.1: nodemon 2.0.13",
+          "partialFingerprints": {
+            "primaryLocationLineHash": "611b78e834c00a8f4711f1850bfe124357edebbd4bec4d68a1689aa927f659bd"
+          }
+        },
+        {
+          "message": {
+            "text": "This dependency has vulnerabilities. For detailed information regarding the vulnerabilities, take a look at the BDSAs and/or CVEs below. "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "package.json"
+                },
+                "region": {
+                  "startLine": 39
+                }
+              }
+            }
+          ],
+          "ruleId": "ms 0.6.2: serve-static 1.7.1",
+          "partialFingerprints": {
+            "primaryLocationLineHash": "90726c726938d357c61989174841eb3c4af50b328e09c6ed7465d2ed720aa686"
+          }
+        },
+        {
+          "message": {
+            "text": "This dependency has vulnerabilities. For detailed information regarding the vulnerabilities, take a look at the BDSAs and/or CVEs below. "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "package.json"
+                },
+                "region": {
+                  "startLine": 21
+                }
+              }
+            }
+          ],
+          "ruleId": "async 1.5.2: express-blinker 0.0.6",
+          "partialFingerprints": {
+            "primaryLocationLineHash": "e7835b7f1301a8c36f990a411b2df25e7bb774abd00c6364c0d0dca1e0d04c77"
+          }
+        },
+        {
+          "message": {
+            "text": "This dependency has vulnerabilities. For detailed information regarding the vulnerabilities, take a look at the BDSAs and/or CVEs below. "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "package.json"
+                },
+                "region": {
+                  "startLine": 20
+                }
+              }
+            }
+          ],
+          "ruleId": "express 4.17.1",
+          "partialFingerprints": {
+            "primaryLocationLineHash": "ab768ac00b2ef0b8733909004e8f9272294bdd2e7f3270d71f493ff3831313ed"
+          }
+        },
+        {
+          "message": {
+            "text": "This dependency has vulnerabilities. For detailed information regarding the vulnerabilities, take a look at the BDSAs and/or CVEs below. "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "package.json"
+                },
+                "region": {
+                  "startLine": 39
+                }
+              }
+            }
+          ],
+          "ruleId": "ms 0.7.0: serve-static 1.7.1",
+          "partialFingerprints": {
+            "primaryLocationLineHash": "96d854d4b484d2da2484613fe54697feb2fbd00aea0af19551bcde439213a532"
+          }
+        },
+        {
+          "message": {
+            "text": "This dependency has vulnerabilities. For detailed information regarding the vulnerabilities, take a look at the BDSAs and/or CVEs below. "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "package.json"
+                },
+                "region": {
+                  "startLine": 37
+                }
+              }
+            }
+          ],
+          "ruleId": "minimatch 3.0.4: nodemon 2.0.13",
+          "partialFingerprints": {
+            "primaryLocationLineHash": "9d5ce594887974802932e8df9125faaa8e13f02906ba51f256ff83d949d48881"
+          }
+        },
+        {
+          "message": {
+            "text": "This dependency has vulnerabilities. For detailed information regarding the vulnerabilities, take a look at the BDSAs and/or CVEs below. "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "package.json"
+                },
+                "region": {
+                  "startLine": 39
+                }
+              }
+            }
+          ],
+          "ruleId": "serve-static 1.7.1",
+          "partialFingerprints": {
+            "primaryLocationLineHash": "4deed12a68b7e130c90d49c2292e6a681a4d2827cb0ed39d81fa0a19330c980f"
+          }
+        },
+        {
+          "message": {
+            "text": "This dependency has vulnerabilities. For detailed information regarding the vulnerabilities, take a look at the BDSAs and/or CVEs below. "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "package.json"
+                },
+                "region": {
+                  "startLine": 20
+                }
+              }
+            }
+          ],
+          "ruleId": "qs 6.7.0: express 4.17.1",
+          "partialFingerprints": {
+            "primaryLocationLineHash": "04ad12634f5132c98d1a0da1caa7123ead05c449fe2557d5942ac02a1c42fb3d"
+          }
+        },
+        {
+          "message": {
+            "text": "This dependency has vulnerabilities. For detailed information regarding the vulnerabilities, take a look at the BDSAs and/or CVEs below. "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "package.json"
+                },
+                "region": {
+                  "startLine": 13
+                }
+              }
+            }
+          ],
+          "ruleId": "qs 6.7.0: body-parser 1.19.0",
+          "partialFingerprints": {
+            "primaryLocationLineHash": "3e341eab8b5d1bfecb953d0f3561fa0a7afdca78946d76469e88c81c4dad2741"
+          }
+        },
+        {
+          "message": {
+            "text": "This dependency has vulnerabilities. For detailed information regarding the vulnerabilities, take a look at the BDSAs and/or CVEs below. "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "package.json"
+                },
+                "region": {
+                  "startLine": 33
+                }
+              }
+            }
+          ],
+          "ruleId": "dicer 0.2.5: multer 1.4.3",
+          "partialFingerprints": {
+            "primaryLocationLineHash": "3b0a834cb6ed517eec0e1f66b2a4822a50125a4eba7cfcf2229ca8a1053b2f85"
+          }
+        },
+        {
+          "message": {
+            "text": "This dependency has vulnerabilities. For detailed information regarding the vulnerabilities, take a look at the BDSAs and/or CVEs below. "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "package.json"
+                },
+                "region": {
+                  "startLine": 12
+                }
+              }
+            }
+          ],
+          "ruleId": "axios 0.22.0",
+          "partialFingerprints": {
+            "primaryLocationLineHash": "f96e088ebb70f957c996831bc0e6d701eb9baf60574df4d864e68e7d632c71de"
+          }
+        },
+        {
+          "message": {
+            "text": "This dependency has vulnerabilities. For detailed information regarding the vulnerabilities, take a look at the BDSAs and/or CVEs below. "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "package.json"
+                },
+                "region": {
+                  "startLine": 37
+                }
+              }
+            }
+          ],
+          "ruleId": "semver 7.3.5: nodemon 2.0.13",
+          "partialFingerprints": {
+            "primaryLocationLineHash": "46908dc22ac200ad4f176e77d8bff3761618e929ebe5a3d7bc4e494155e9671a"
+          }
+        },
+        {
+          "message": {
+            "text": "This dependency has vulnerabilities. For detailed information regarding the vulnerabilities, take a look at the BDSAs and/or CVEs below. "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "package.json"
+                },
+                "region": {
+                  "startLine": 29
+                }
+              }
+            }
+          ],
+          "ruleId": "jsonwebtoken 0.4.0",
+          "partialFingerprints": {
+            "primaryLocationLineHash": "0b0b7b6aadd656b5b70da8d28a29a1712363ba22f02a325abc52ea3ea59313c2"
+          }
+        }
+      ]
+    }
+  ],
+  "version": "2.1.0"
+}
